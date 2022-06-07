@@ -1,0 +1,627 @@
+@import url('http://fonts.cdnfonts.com/css/nexa-bold');
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+
+body{
+    margin: 0px;
+    background-position: center;
+}
+.A-marker{
+    border-bottom: none;
+    color: white;
+}
+
+.bodymod{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+}
+.S-Secondbody{ 
+    background-color: white;
+    width: 80%;
+    height: 900px;
+    right: 200px;
+    position: absolute;
+}
+
+.kobe{
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    height: 10vh;
+    left: 231px;
+    position: absolute;
+    background-color: #161818;
+    color: white;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    cursor: pointer;
+}
+    
+.kobe:hover{
+    background-color: darkgoldenrod;
+}
+
+.carrusel{
+    width: 500px;
+    top: 700px;
+    position: absolute;
+    margin-left: 199px;
+    border-style: ridge;
+    border: #452161;
+}
+.C-texthead{
+    display: flex;
+    flex-flow: row;
+    border-style:1px solid;
+    border-bottom: #452161;
+}
+.F-name{
+    position: absolute;
+    color: darkgoldenrod;
+    left: 190px;
+    top: 100px;
+    font-size: 77px;
+    font-family: 'Nexa', sans-serif;
+                                                
+}
+.F-surname{
+    position: absolute;
+    color: #452161;
+    left: 401px;
+    top: 100px;
+    font-size: 77px;
+    font-family: 'Nexa', sans-serif;
+                                                
+}
+.F-mamba{
+    position: absolute;
+    color: darkgoldenrod;
+    left: 921px;
+    top: 100px;
+    font-size: 77px;
+    font-family: 'Nexa', sans-serif;  
+}
+.F-mentality{
+    position: absolute;
+    color: #452161;
+    left: 1251px;
+    top: 100px;
+    font-size: 77px;
+    font-family: 'Nexa', sans-serif;
+                                     
+}
+.divInfo {
+    width: 100%;
+    height: 96px;
+    background-color:#161818;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+
+}
+.divImage {
+    width: 70px;
+    height: 70px;
+    opacity: 0.92;
+    float: right;
+    margin-right: 74px;
+
+}
+.logo {
+    margin-top: 8px;
+    width: 80px;
+    height: 80px;
+}
+.buttonHome {
+    width: 200px;
+    background-color:#161818;
+    color: white;
+    margin-left: 20px;
+    font-size: 19px;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 10vh;
+    cursor: pointer;
+}
+.buttonHome:hover {
+    background-color:#452161; 
+    color: white;
+}
+.buttonContact {
+    font-size: 19px;
+    background-color: #161818;
+    color:white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 10vh;
+    float: right;
+    width: 200px;    
+    cursor: pointer;
+    
+}
+.buttonContact:hover {
+    background-color:darkgoldenrod; 
+    color: white;
+}
+.buttonHelp {
+    font-size: 19px;
+    background-color:#161818;
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 10vh;
+    float: right;
+    width: 200px;
+    margin-left: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.buttonHelp:hover {
+    background-color:#452161; 
+    color: white;
+}
+.part-1{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: absolute;
+    width: 200px;
+    left: 197px;
+    top: 166px;
+}
+.part-2{
+    width: 200px;
+    position: absolute;
+    left: 470px;
+    top: 163px;
+}
+
+.part-3{
+    width: 200px;
+    position: absolute;
+    right: 768px;
+    top: 163px; 
+}
+ .part-4 {
+    width: 387px;
+    position: absolute;
+    right: 256px;
+    top: 163px;
+}
+.explicativeImage{
+    position: absolute;
+    width: 457px;
+    right: 400px;
+    top: 700px;
+}
+
+/* Estilo de la pagina de contacto*/
+.A-form{
+    position: absolute;
+    text-align: center;
+    left: 650px;
+    top: 200px;
+    width: 600px;
+    height: 600px;
+    background-color: #161818;
+}
+.A-Player{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    width: 500px;
+    height: 70px;
+    font-size: large;
+    cursor: auto;
+}
+.F-Title{
+   color: white;
+}
+
+.B-Player{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 500px;
+    height: 70px;
+    font-size: large;
+    cursor: auto;
+}
+.C-Player{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 500px;
+    height: 70px;
+    font-size: large;
+    cursor: auto;
+}
+.D-Player{
+    border-radius: 3px;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    width: 500px;
+    height: 100px;
+    font-size: large;
+    cursor: auto;
+}
+.E-Player{
+    border-radius: 3px;
+    position: absolute;
+    top: 500px;
+    left: 210px;
+    width: 200px;
+    height: 30px;
+}
+.Im-johan{
+    position: absolute;
+    width: 500px;
+    top: 240px;
+    left: 60px;
+}
+.Im-kobe{
+    position: absolute;
+    width: 500px;
+    top: 240px;
+    right: 80px;
+}
+.Form-Body{
+    background-color: black;
+}
+/*responsive for Kobe Bryant Screen */
+@media only screen and (max-width: 1669px) {
+    .F-mentality{
+        position: absolute;
+        color: #452161;
+        left: 979px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+                                         
+    }
+    .F-mamba{
+        position: absolute;
+        color: darkgoldenrod;
+        left: 704px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;  
+    }
+    .F-name{
+        position: absolute;
+        color: darkgoldenrod;
+        left: 154px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+                                                    
+    }
+    .F-surname{
+        position: absolute;
+        color: #452161;
+        left: 346px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+                                                    
+    }
+    .part-4 {
+        width: 387px;
+        position: absolute;
+        right: 227px;
+        top: 163px;
+    }
+    .part-3 {
+        width: 200px;
+        position: absolute;
+        right: 635px;
+        top: 163px;
+    }
+    .explicativeImage {
+        position: absolute;
+        width: 457px;
+        right: 308px;
+        top: 700px;
+    }
+    .carrusel{
+        margin-left: 149px;
+    }
+    .part-1 {
+        left: 168px;
+    }
+    .part-2 {
+        left: 403px;
+    }
+
+}
+@media only screen and (max-width: 1530px) {
+    .F-mamba{
+        position: absolute;
+        color: darkgoldenrod;
+        left: 665px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;  
+    }
+    .F-mentality{
+        position: absolute;
+        color: #452161;
+        left: 916px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+                                         
+    }
+    .Im-kobe{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1477px) {
+    .bodymod {
+        height: 2000px;
+    }
+    .S-Secondbody {
+        background-color: white;
+        width: 80%;
+        height: 2000px;
+        right: 200px;
+        position: absolute;
+    }
+    .F-name {
+        position: absolute;
+        color: darkgoldenrod;
+        left: 154px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-surname {
+        position: absolute;
+        color: #452161;
+        left: 346px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-mamba {
+        position: absolute;
+        color: darkgoldenrod;
+        left: 609px;
+        top: 102px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-mentality {
+        position: absolute;
+        color: #452161;
+        left: 860px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .part-1 {
+        left: 183px;
+        width: 339px;
+        height: 300px;
+        font-size: 20px;
+    }
+    .part-2 {
+        left: 595px;
+        width: 445px;
+        font-size: 20px;
+    }
+    .carrusel {
+        margin-left: 340px;
+        top: 654px;
+        width: 739px;
+    }
+    .part-3 {
+        width: 291px;
+        position: absolute;
+        right: 996px;
+        top: 1115px;
+        font-size: 21px;
+    }
+    .part-4 {
+        width: 592px;
+        position: absolute;
+        right: 271px;
+        top: 1119px;
+        font-size: 21px;
+    }
+    .explicativeImage {
+        position: absolute;
+        width: 609px;
+        right: 469px;
+        top: 1712px;
+    }
+    
+}
+@media only screen and (max-width: 1217px) {
+    .bodymod {
+        height: 2000px;
+        /* display: none; */
+        background: white;
+    }
+    .S-Secondbody {
+        background-color: white;
+        width: 100%;
+        height: 2000px;
+        right: 200px;
+        position: absolute;
+    }
+    .F-name {
+        position: absolute;
+        color: darkgoldenrod;
+        left: 154px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-surname {
+        position: absolute;
+        color: #452161;
+        left: 346px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-mamba {
+        position: absolute;
+        color: darkgoldenrod;
+        left: 609px;
+        top: 102px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-mentality {
+        position: absolute;
+        color: #452161;
+        left: 860px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-mentality {
+        position: absolute;
+        color: #452161;
+        left: 860px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .part-2 {
+        left: 595px;
+        width: 445px;
+        font-size: 20px;
+    }
+    .part-3 {
+        width: 291px;
+        position: absolute;
+        right: 666px;
+        top: 1115px;
+        font-size: 21px;
+    }
+    .part-4 {
+        width: 592px;
+        position: absolute;
+        right: 35px;
+        top: 1119px;
+        font-size: 21px;
+    }
+    .explicativeImage {
+        position: absolute;
+        width: 609px;
+        right: 202px;
+        top: 1712px;
+    }
+    .carrusel {
+        margin-left: 249px;
+        top: 654px;
+        width: 739px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .F-mamba {
+        display: none;
+    }
+    .F-mentality{
+        display: none;
+    }
+    .F-name {
+        position: absolute;
+        color: darkgoldenrod;
+        left: 138px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .F-surname {
+        position: absolute;
+        color: #452161;
+        left: 480px;
+        top: 100px;
+        font-size: 60px;
+        font-family: 'Nexa', sans-serif;
+    }
+    .part-1 {
+        left: 60px;
+        width: 339px;
+        height: 300px;
+        font-size: 20px;
+    }
+    .part-2 {
+        left: 428px;
+        width: 399px;
+        font-size: 20px;
+        border-left: groove;
+    }
+    .part-3 {
+        width: 291px;
+        position: absolute;
+        right: 503px;
+        top: 1115px;
+        font-size: 21px;
+        border-right-style: groove;
+    }
+    .part-4 {
+        width: 465px;
+        position: absolute;
+        right: 35px;
+        top: 1119px;
+        font-size: 21px;
+    }
+    .carrusel {
+        margin-left: 63px;
+        top: 654px;
+        width: 739px;
+    }
+    .explicativeImage {
+        position: absolute;
+        width: 560px;
+        right: 202px;
+        top: 1851px;
+    }
+    .kobe{
+        display: none;
+    }
+    .buttonHelp{
+        display: none;
+    }
+    .buttonContact{
+        display: none;
+    }
+    .buttonHome {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        top: 10px;
+        position: fixed;
+    }
+    .buttonHome:hover{
+        display: none;
+    }
+    .Im-johan{
+        display: none;
+    }
+    .A-form {
+        position: absolute;
+        text-align: center;
+        left: 156px;
+        top: 200px;
+        width: 600px;
+        height: 600px;
+        background-color: #161818;
+    }
+}
+
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+<script>
+    function openDropdown() {
+        var dropdownContent = document.querySelector('.dropdown-content-');
+        var svgIcon = document.querySelector('.my-svg');
+
+        var isOpen = dropdownContent.classList.contains('open');
+
+        if (isOpen) {
+            dropdownContent.classList.remove('open');
+            svgIcon.classList.remove('open');
+        } else {
+            dropdownContent.classList.add('open');
+            svgIcon.classList.add('open');
+        }
+    }
+</script>
+
+<head>
+    <link rel="stylesheet" href="Styles/StylesSports2.css">
+</head>
+
+<body>
+    <header class="divInfo">
+        <div class="firstDiv">
+            <a href="index.html">
+            <button class="buttonHome">Home</button></a>
+            <button class="Kings" onclick="openDropdown()">Jugadores
+                <svg class="my-svg" version="1.1" width="10" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 199.404 199.404"
+                    style="enable-background:new 0 0 199.404 199.404;" xml:space="preserve">
+                    <g>
+                        <polygon
+                            points="199.404,63.993 171.12,35.709 99.702,107.127 28.284,35.709 0,63.993 99.702,163.695 	" />
+                    </g>
+                </svg>
+            </button>
+            <div class="dropdown-content-">
+                <ul class="dropdown-menu-">
+                    <a href="#FSection">
+                        <li class="liS"> Football</li>
+                    </a>
+                    <a href="#BSection">
+                        <li class="liS"> Basketball</li>
+                    </a>
+                    <a href="#TSection">
+                        <li class="liS"> Tennis</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+        <div class="divImage">
+            <img class="logo" src="https://seeklogo.com/images/K/kobe-logo-0F822E7275-seeklogo.com.png">
+        </div>
+        
+        <div class="thirstDiv">
+            <a href="PaginaContacto.html">
+            <button class="buttonHelp">Sugerencias</button></a>
+            <a href="mambaout.html">
+            <button class="buttonContact">Mamba Out</button></a>
+        </div>
+    
+    </header>
+
+    <div class="background">
+        <div class="containerK">
+
+            <p class="KingSports">
+                <b>KingSports</b>
+            </p>
+            <p id="FSection" class="pSports">Football</p>
+            <div class="containerOne">
+                <div class="cardPhotoOne">
+                    <div class="buttonOne">...</div>
+                    <div class="textPhoto">
+                        <b class="bClass">Erick Cantona</b>
+                        <div class="hiden">Age Country.</div>
+                    </div>
+                </div>
+                
+                <div class="cardPhotoTwo">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Diego Armando Maradona</b>
+                    </div>
+                </div>
+                <div class="cardPhotoThree">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Johan Cruyff</b>
+                    </div>
+                </div>
+            </div>
+            <p id="BSection" class="pSports2">Basketball</p>
+            <div class="containerOne">
+                <a href="mambaout.html">
+                <div class="cardPhotoFour">
+                    <div class="buttonOne">...</div>
+                    <div class="textPhoto">
+                        <b class="bClass">Koby Bryant</b>
+                    </div>
+                </div></a>
+                <div class="cardPhotoFive">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Michael Jordan</b>
+                    </div>
+                </div>
+                <div class="cardPhotoSix">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Magic Jhonson</b>
+                    </div>
+                </div>
+            </div>
+            <p id="TSection" class="pSports3">Tennis</p>
+            <div class="containerOne">
+                <div class="cardPhotoSeven">
+                    <div class="buttonOne">...</div>
+                    <div class="textPhoto">
+                        <b class="bClass">Rod Laver</b>
+                    </div>
+                </div>
+                <div class="cardPhotoEight">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Steffi Graf</b>
+                    </div>
+                </div>
+                <div class="cardPhotoNine">
+                    <div class="buttonOne">... </div>
+                    <div class="textPhoto">
+                        <b class="bClass">Roger Federer</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divFooter">
+                <footer class="footerSports">
+                    <p class="pFooter">Authors: JavierLT & AlbertoFV /
+                        <a>KingSports@hotmail.com</a>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

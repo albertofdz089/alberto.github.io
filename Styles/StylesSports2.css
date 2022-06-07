@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tiro+Bangla&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.divInfo {
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.divImage {
+    width: 70px;
+    height: 70px;
+    opacity: 0.92;
+    float: right;
+    margin-right: 74px;
+
+}
+
+.logo {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.buttonHome {
+    width: 100px;
+    margin-left: 20px;
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.buttonHome:hover {
+    background-color: rgb(213, 208, 208);
+    color: rgb(87, 14, 14);
+}
+
+.buttonContact {
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 130px;
+    cursor: pointer;
+
+}
+
+.buttonContact:hover {
+    background-color: rgba(134, 7, 7, 0.952);
+    color: white;
+}
+
+.buttonHelp {
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 120px;
+    margin-left: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buttonHelp:hover {
+    background-color: rgba(134, 7, 7, 0.952);
+    color: white;
+}
+
+.Kings {
+    width: 170px;
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.Kings:hover {
+    background-color: rgb(213, 208, 208);
+    color: rgba(134, 7, 7, 0.952);
+}
+
+.background {
+    background-color: rgb(213, 208, 208);
+    height: 220vh;
+}
+
+.KingSports {
+    margin-left: 20px;
+    font-size: 69px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(134, 7, 7, 0.952);
+    margin-bottom: -4px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.dropdown-content- {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(87, 14, 14);
+    width: 172px;
+}
+
+.dropdown-content-.open {
+    display: block;
+    margin-left: 122px;
+    margin-top: 1px;
+    height: 115px;
+    width: 172px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.dropdown-content-.open>.liS {
+    display: block;
+}
+
+.dropdown-menu- {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu- .liS {
+    padding: 10px;
+    border-bottom: 1px solid #80808024;
+}
+
+.dropdown-menu- .liS:hover {
+    background-color: rgba(205, 28, 28, 0.718);
+    cursor: pointer;
+    color: rgb(225, 160, 40);
+}
+
+
+.dropdown-menu- .liS:last-child {
+    border-bottom: none;
+}
+
+
+.my-svg {
+    transform: rotate(0deg);
+    transition: .3s transform;
+    color: rgba(134, 7, 7, 0.952);
+    margin-left: 7px;
+    fill: currentColor;
+    cursor: ns-resize;
+}
+
+.my-svg.open {
+    transform: rotate(180deg);
+}
+
+.mysvg {
+    color: rgb(225, 160, 40);
+    margin-left: 7px;
+    margin-top: 10px;
+    fill: currentColor;
+}
+
+.liS {
+    color: whitesmoke;
+    
+}
+
+.divFooter {
+    position: relative;
+}
+
+.footerSports {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pFooter {
+    color: white;
+    position: absolute;
+    margin-left: 575px;
+    top: 1040px;
+    float: bottom;
+}
+
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+.containerOne {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.cardPhotoOne {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpaperaccess.com/full/4345882.jpg")
+}
+
+.cardPhotoOne:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.cardPhotoTwo {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/56e834ebd51cd466c99178e5/1606638518827-T04DWQ0JYYUKXN9P86GI/Maradona_05.jpeg")
+}
+
+.cardPhotoTwo:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.cardPhotoThree {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.panenka.org/wp-content/uploads/2016/10/1822456-38446351-2560-1440.jpg")
+}
+
+.cardPhotoThree:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+.cardPhotoFour {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i0.wp.com/plus.cusica.com/wp-content/uploads/2020/01/Kobe-Bryant.jpg?fit=1400%2C950&ssl=1")
+}
+.cardPhotoFour:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+
+.cardPhotoFive {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://nba-pasion.com/wp-content/uploads/2021/07/El-jugador-Michael-Jordan-humillado-sin-piedad-en-Dream-Team.jpg")
+}
+.cardPhotoFive:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+
+.cardPhotoSix {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://library.sportingnews.com/styles/facebook_1200x630/s3/2022-05/nba-plain--2f937cdd-88c7-4988-b48c-b0d5af47e7a4.png?itok=xu7GIS6e")
+    
+}
+.cardPhotoSix:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+.cardPhotoSeven {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://settenis.com.ar/wp-content/uploads/2020/08/La-vanguardia-laver.jpg")
+    
+}
+.cardPhotoSeven:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+
+.cardPhotoEight {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url("https://canaltenis.com/wp-content/uploads/2020/07/graf.jpg")
+    
+}
+.cardPhotoEight:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+
+.cardPhotoNine {
+    position: relative;
+    display: flex;
+    flex-flow: column-reverse;
+    width: 330px;
+    height: 330px;
+    margin: 15px;
+    margin-top: -5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://imagenes.20minutos.es/files/og_thumbnail/uploads/imagenes/2020/01/24/roger-federer.jpeg")
+}
+.cardPhotoNine:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    opacity: 0.7;
+    transition: 0.3s;
+    border-radius:2px;
+}
+.buttonOne {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(213, 208, 208);
+    color: rgb(225, 160, 40);
+    font-weight: 600;
+    font-size: 25px;
+    font-family: monospace;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 14px;
+    top: 288px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttonOne:hover {
+    background-color: rgb(225, 160, 40);
+    color: rgb(166, 26, 26);
+}
+
+.textPhoto {
+    background-color: rgba(134, 7, 7, 0.952);
+    width: 330px;
+    height: 50px;
+    padding-top: 15px;
+}
+.bClass {
+    margin-left: 10px;
+    vertical-align:middle;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+.pSports {
+    color: rgba(0, 0, 0, 0.952);
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding-left: 650px;
+}
+.pSports2 {
+    color: rgba(0, 0, 0, 0.952);
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding-left: 620px;
+}
+.pSports3 {
+    color: rgba(0, 0, 0, 0.952);
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    margin: 0;
+    padding-left: 670px;
+}
+.divFooter {
+    position: relative;
+}
+.footerSports {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pFooter {
+    color: rgb(11, 11, 11);
+    margin-top: 129px;
+    position: absolute;
+    margin-left: 575px;
+    top: 0px;
+}
+.hiden {
+    display: none;
+  }
+      
+  .textPhoto:hover + .hiden {
+    display: block;
+    color: rgb(157, 24, 24);
+
+    
+  }

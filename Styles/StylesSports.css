@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Tiro+Bangla&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+}
+
+.divInfo {
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(0, 0, 0, 0.952);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+
+.divImage {
+    width: 70px;
+    height: 70px;
+    opacity: 0.92;
+    float: right;
+    margin-right: 74px;
+
+}
+
+.logo {
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.buttonHome {
+    width: 100px;
+    margin-left: 20px;
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.buttonHome:hover {
+    background-color: rgb(213, 208, 208);
+    color: rgb(87, 14, 14);
+}
+
+.buttonContact {
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 130px;
+    cursor: pointer;
+
+}
+
+.buttonContact:hover {
+    background-color: rgba(205, 28, 28, 0.718);
+    color: white;
+}
+
+.buttonHelp {
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    float: right;
+    width: 120px;
+    margin-left: 4px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.buttonHelp:hover {
+    background-color: rgba(205, 28, 28, 0.718);
+    color: white;
+}
+
+.Kings {
+    width: 170px;
+    font-size: 19px;
+    background-color: rgba(15, 15, 15, 0.952);
+    color: white;
+    border: none;
+    padding: 9px;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    height: 12vh;
+    cursor: pointer;
+}
+
+.Kings:hover {
+    background-color: rgb(213, 208, 208);
+    color: rgba(134, 7, 7, 0.952);
+}
+
+.background {
+    background-color: rgb(213, 208, 208);
+    height: 88vh;
+}
+
+.KingSports {
+    margin-left: 20px;
+    font-size: 69px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(134, 7, 7, 0.952);
+    margin-bottom: -4px;
+    margin-top: 0px;
+    padding-top: 126px;
+}
+
+.description {
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 21px;
+    color: rgb(20, 19, 19);
+    width: 552px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    margin-left: 347px;
+    bottom: 162px;
+    right: -21px;
+    width: 67%;
+    height: 320px;
+}
+
+.d-block w-100 {
+    width: 100% important;
+    height: 100% important;
+}
+
+.dropdown-content- {
+    display: none;
+    position: absolute;
+    border: 1px solid rgb(87, 14, 14);
+    width: 172px;
+}
+
+.dropdown-content-.open {
+    display: block;
+    margin-left: 122px;
+    margin-top: 1px;
+    height: 137px;
+    width: 172px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+.dropdown-content-.open > .liS { 
+    display: block;
+}
+
+.dropdown-menu- {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu- .liS {
+    padding: 10px;
+    border-bottom: 1px solid #80808024;
+}
+
+.dropdown-menu- .liS:hover {
+    background-color: rgba(205, 28, 28, 0.718);
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+.dropdown-menu- .liS:last-child {
+    border-bottom: none;
+}
+
+
+.my-svg {
+    transform: rotate(0deg);
+    transition: .3s transform;
+    color: rgba(134, 7, 7, 0.952);
+    margin-left: 7px;
+    fill: currentColor;
+    cursor: ns-resize;
+}
+
+.my-svg.open {
+    transform: rotate(180deg);
+}
+
+.mysvg {
+    color: rgb(225, 160, 40);
+    margin-left: 7px;
+    margin-top: 10px;
+    fill: currentColor;
+}
+
+.liS {
+    color: rgb(225, 160, 40);
+}
+.divFooter {
+    position: relative;
+}
+.footerSports {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pFooter {
+    color: rgb(11, 11, 11);
+    margin-top: 129px;
+    position: absolute;
+    margin-left: 575px;
+}
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+
+}
+.pHighL {
+    padding-left: 540px;
+    color: rgba(136, 28, 28, 0.718);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
